@@ -34,6 +34,7 @@ const Navbar = () => {
                                 <a onClick={toggleNavbar} className="navbar-brand">
                                     <img src="/images/logo.png" alt="logo" />
                                 </a>
+                                
                             </Link>
 
                             <button 

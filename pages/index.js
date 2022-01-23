@@ -19,15 +19,15 @@ const Index = () => {
             <Navbar />
             <MainBanner />
             <LanguageCourses />
-            <WhyChooseUs />
+            {/* <WhyChooseUs />
             <FeedbackSlider />
             <TopSellingCourses />
-            <FunFactsTwo />
+            <FunFactsTwo /> */}
             <HowToApply />
             <SignUpForm />
-            <UpcomingEvents />
+            {/* <UpcomingEvents /> */}
             <SubscribeForm />
-            <Partner />
+            {/* <Partner /> */}
             <Footer />
         </React.Fragment>
     )

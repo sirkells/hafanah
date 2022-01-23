@@ -13,7 +13,7 @@ const MainBanner = () => {
 
                             <Link href="/profile-authentication">
                                 <a className="default-btn">
-                                    <i className="flaticon-user"></i> Join For Free <span></span>
+                                    <i className="flaticon-user"></i> Start Learning <span></span>
                                 </a>
                             </Link>
                         </div>
