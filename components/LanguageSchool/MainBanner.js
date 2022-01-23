@@ -8,7 +8,7 @@ const MainBanner = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-5 col-md-12">
                         <div className="main-banner-wrapper-content">
-                            <h1>Achieve the Best Results with Academy</h1>
+                            <h1>Learn Pidgin English</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
                             <Link href="/profile-authentication">
