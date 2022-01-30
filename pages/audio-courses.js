@@ -8,6 +8,7 @@ import RegisterForm from '../components/ProfileAuthentication/RegisterForm';
 import Footer from '../components/_App/Footer';
 
 import { useState } from "react";
+const config = require("../config_firebase.json");
 
 const AudioCourses = () => {
     const [songs, setsongs] = useState([
@@ -26,6 +27,7 @@ const AudioCourses = () => {
       ]);
     const [currentSongIndex, setCurrentSongIndex] = useState(0);
     const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1);
+    
     return (
         <React.Fragment>
             <Navbar />
@@ -40,7 +42,7 @@ const AudioCourses = () => {
                 <div className="container">
                     <div className="row">
                     <div className="col-lg-6 col-md-12">
-                            <Upload />
+                            <Upload config={config}/>
                             <Player
                                 song={songs[currentSongIndex]}
                                 nextSong={songs[nextSongIndex]}

@@ -16,6 +16,7 @@ import Footer from '../components/_App/Footer';
 
 
 
+
 const Index = () => {
     return (
         <React.Fragment>
@@ -33,6 +34,7 @@ const Index = () => {
             <Subscribe />
             <Partner />
             <Footer />
+            
         </React.Fragment>
     )
 }

@@ -16,19 +16,27 @@ const metadata = {
     contentType: 'image/png',
   };
 
-  
 
 
-const firebaseConfig = {
-  };
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const db = getFirestore();
-const storage = getStorage(app);
 
 
-function Upload() {
+
+function Upload(props) {
+    const firebaseConfig = {
+        apiKey: props.config.apiKey,
+        authDomain: props.config.authDomain,
+        projectId: props.config.projectId,
+        storageBucket: props.config.storageBucket,
+        messagingSenderId: props.config.messagingSenderId,
+        appId: props.config.appId,
+        measurementId: props.config.measurementId
+      
+    };
+    
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore();
+    const storage = getStorage(app);
     const [fileUrl, setFileUrl] = React.useState(null)
     const [musicUrl, setMusicUrl] = React.useState(null)
     const [disable, setDisable] = React.useState(true);
