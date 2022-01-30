@@ -77,6 +77,13 @@ const Navbar = () => {
                                             </a>
                                         </Link>
                                     </div>
+                                    <div className="option-item">
+                                        <Link href="/audio-courses">
+                                            <a className="default-btn">
+                                                <i className="flaticon-user"></i> Courses <span></span>
+                                            </a>
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
