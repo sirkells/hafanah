@@ -13,6 +13,9 @@
     "license": "ISC",
     "dependencies": {
         "axios": "^0.21.4",
+        "faker": "^6.6.6",
+        "firebase": "^9.6.5",
+        "fs": "^0.0.1-security",
         "next": "^11.1.2",
         "nodemailer": "^6.6.3",
         "nodemailer-sendgrid-transport": "^0.2.0",

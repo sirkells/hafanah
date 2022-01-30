@@ -3,6 +3,7 @@ import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import Library from '../components/AudioPlayer/Library';
 import Player from '../components/AudioPlayer/Player';
+import Upload from '../components/AudioPlayer/Upload';
 import RegisterForm from '../components/ProfileAuthentication/RegisterForm';
 import Footer from '../components/_App/Footer';
 
@@ -39,6 +40,7 @@ const AudioCourses = () => {
                 <div className="container">
                     <div className="row">
                     <div className="col-lg-6 col-md-12">
+                            <Upload />
                             <Player
                                 song={songs[currentSongIndex]}
                                 nextSong={songs[nextSongIndex]}

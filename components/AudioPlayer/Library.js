@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import style from "../../styles/library.module.css"
 
 const Library = () => {
     return (
